@@ -1,0 +1,62 @@
+<style type="text/css">
+        * {
+            z-index: 3
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        strong>#header {
+            margin: auto;
+            width: 500px;
+            font-size: 5;
+            font-family: Helvetica;
+
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        .nav>li {
+
+        float: left;
+        }
+
+        .nav li a {
+            background-color: #04B404;
+            color: #fff;
+            width: 232px;
+            text-decoration: none;
+            padding: 12px 12px;
+            display: flex;
+            flex-grow:unset;
+        }
+
+        .nav li a:hover {
+            background-color: #A4A4A4;
+            flex-grow:initial;
+        }
+
+        .nav li ul {
+            display: none;
+            position: absolute;
+            min-width: 140px;
+        }
+
+        .nav li:hover>ul {
+            flex-grow:inherit;
+            display: block;
+        }
+
+        .nav li ul li {
+            position: relative;
+            flex-grow: 78;
+        }
+
+        .nav li ul li ul {
+            right: -140px;
+            top: 0px;
+            flex-grow: 78;
+        }
+    </style>

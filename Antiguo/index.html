@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link rel="stylesheet" href="leaflet-routing-machine-3.2.5/dist/leaflet-routing-machine.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container">
+            <ul class="nav">
+                <li><a href="">
+                        <font color="black">Edificis singulars de Reus</font>
+                    </a></li>
+
+                <li><a href="">Història de la ciutat</a>
+                    <ul>
+                        <li><a href="/views/Origenmedieval.html">Orígen Medieval </a>
+                        <li><a href="/views/epocaModerna.html">Època Moderna </a></li>
+                        <li><a href="/views/epocacontamporania.html">Època Contemporània</a> </a></li>
+                        <li><a href="actualitat.html">Actualitat </a></li>
+                    </ul>
+                </li>
+                <li><a href="">Tipologuies d'edificis</a>
+                    <ul>
+                        <li><a href="eclectics.html">Edificis eclèctics</a></li>
+                        <li><a href="modernistes.html">Edificis modernistes</a></li>
+                        <li><a href="noucentistes.html">Edificis noucentistes</a></li>
+                        <ul>
+                            <li><a href="#">Submenu1</a></li>
+                            </strong>
+                            <li><a href="">Submenu2</a></li>
+                            <li><a href="#">Submenu3</a></li>
+                            <li><a href="#">Submenu4</a></li>
+                        </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="">Proposta d'Intineraris</a>
+                <ul>
+                    <li><a href="#">Ruta eclèctica</a></li>
+                    <li><a href="#">Ruta modernista</a></li>
+                    <li><a href="#">Ruta noucensita</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Documentació</a>
+                <ul>
+                    <li><a href="#">Premsa local</a></li>
+                    <li><a href="#">Cadastres antics</a></li>
+                    <li><a href="#">Llicències d'obres</a></li>
+                    <li><a href="#">Expedients</a></li>
+                    <li><a href="#">Plànols</a></li>
+                </ul>
+            </li>
+            </li>
+            <li>
+                <a href="">
+                    <form action="search.php" method="get">
+                        <input type="search" name="q" placeholder="Cercador" required="required">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </a>
+                </ul>
+        </div>
+
+        <div id="map"></div>
+    </div>
+    <!-- aqui se enlazan todos los scripts -->
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <script src="leaflet-routing-machine-3.2.5/dist/leaflet-routing-machine.js"></script>
+    <script src="/js/funciones.js"></script>
+</body>
+
+</html>

@@ -1,53 +1,131 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Edificis singulars de Reus</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Història de la ciutat
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Orígen medieval</a></li>
+                        <li><a class="dropdown-item" href="#">Època moderna</a></li>
+                        <li><a class="dropdown-item" href="#">Època contemporània</a></li>
+                        <li><a class="dropdown-item" href="#">Actualitat</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Tipologuies d'edificis
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="eclectics.html">Edificis eclèctics</a></li>
+                        <li><a class="dropdown-item" href="modernistes.html">Edificis modernistes</a></li>
+                        <li><a class="dropdown-item" href="noucentistes.html">Edificis noucentistes</a></li>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Submenu1</a></li>
+                            </strong>
+                            <li><a class="dropdown-item" href="">Submenu2</a></li>
+                            <li><a class="dropdown-item" href="#">Submenu3</a></li>
+                            <li><a class="dropdown-item" href="#">Submenu4</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Proposta d'Itineraris
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="Ruta modenista.html">Ruta modernista</a></li>
+                        <li><a class="dropdown-item" href="Ruta noucentista.html">Ruta noucensita</a></li>
+                        <li><a class="dropdown-item" href="Ruta eclectica.html">Ruta eclèctica</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Documentació
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="prensa local.html">Premsa Històrica</a></li>
+                        <li><a class="dropdown-item" href="cadastre 1949.html">Cadastres antics</a></li>
+                        <li><a class="dropdown-item" href="expedients de foment.html">Expedients de foment</a></li>
+                        <li><a class="dropdown-item" href="fotos.html">Fotografies antiguies </a></li>
+                        <li><a class="dropdown-item" href="fitxes i plànols.html">Fitxes tèniques i plànols</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav nav">
-                <li>
-                    <a href="/">Edificis singulars de Reus</a>
-                </li>
-                <li><a href="">Història de la ciutat!</a>
-                    <ul>
-                        <li><a href="Origenmedieval.html">Orígen Medieval </a>
-                        <li><a href="/epocaModerna.html">Època Moderna </a></li>
-                        <li><a href="epocacontamporania.html">Època Contemporània</a> </a></li>
-                        <li><a href="actualitat.html">Actualitat </a></li>
-                    </ul>
-                </li>
-                <li><a href="">Tipologuies d'edificis</a>
-                    <ul>
-                        <li><a href="eclectics.html">Edificis eclèctics</a></li>
-                        <li><a href="modernistes.html">Edificis modernistes</a></li>
-                        <li><a href="noucentistes.html">Edificis noucentistes</a></li>
-                        <ul>
-                            <li><a href="#">Submenu1</a></li>
-                            </strong>
-                            <li><a href="">Submenu2</a></li>
-                            <li><a href="#">Submenu3</a></li>
-                            <li><a href="#">Submenu4</a></li>
+            <div>
+                <ul class="navbar-nav nav">
+                    <li>
+                        <a href="/">Edificis singulars de Reus</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Història de la ciutat
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Orígen medieval</a></li>
+                            <li><a class="dropdown-item" href="#">Època moderna</a></li>
+                            <li><a class="dropdown-item" href="#">Època contemporània</a></li>
+                            <li><a class="dropdown-item" href="#">Actualitat</a></li>
                         </ul>
-                    </ul>
-                </li>
-                <li><a href="">Proposta d'Itineraris</a>
-                    <ul>
-                        <li><a href="Ruta eclectica.html">Ruta eclèctica</a></li>
-                        <li><a href="Ruta modenista.html">Ruta modernista</a></li>
-                        <li><a href="Ruta noucentista.html">Ruta noucensita</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Documentació</a>
-                    <ul>
-                        <li><a href="prensa local.html">Premsa Històrica</a></li>
-                        <li><a href="cadastre 1949.html">Cadastres antics</a></li>
-                        <li><a href="expedients de foment.html">Expedients de foment</a></li>
-                        <li><a href="fotos.html">Fotografies antiguies </a></li>
-                        <li><a href="fitxes i plànols.html">Fitxes tèniques i plànols</a></li>
-                    </ul>
-                </li>
-            </ul>
+                    </li>
+                    <li><a href="">Tipologuies d'edificis</a>
+                        <ul>
+                            <li><a href="eclectics.html">Edificis eclèctics</a></li>
+                            <li><a href="modernistes.html">Edificis modernistes</a></li>
+                            <li><a href="noucentistes.html">Edificis noucentistes</a></li>
+                            <ul>
+                                <li><a href="#">Submenu1</a></li>
+                                </strong>
+                                <li><a href="">Submenu2</a></li>
+                                <li><a href="#">Submenu3</a></li>
+                                <li><a href="#">Submenu4</a></li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li><a href="">Proposta d'Itineraris</a>
+                        <ul>
+                            <li><a href="Ruta eclectica.html">Ruta eclèctica</a></li>
+                            <li><a href="Ruta modenista.html">Ruta modernista</a></li>
+                            <li><a href="Ruta noucentista.html">Ruta noucensita</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Documentació</a>
+                        <ul>
+                            <li><a href="prensa local.html">Premsa Històrica</a></li>
+                            <li><a href="cadastre 1949.html">Cadastres antics</a></li>
+                            <li><a href="expedients de foment.html">Expedients de foment</a></li>
+                            <li><a href="fotos.html">Fotografies antiguies </a></li>
+                            <li><a href="fitxes i plànols.html">Fitxes tèniques i plànols</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</nav>
+</nav> -->

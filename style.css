@@ -21,7 +21,7 @@ ul,ol {
 float: left;
 }
 .nav li a {
-    background-color: #04B404;
+    background-color: #8df38d;
     color: #fff;
     width: 232px;
     text-decoration: none;
@@ -30,7 +30,7 @@ float: left;
     flex-grow:unset;
 }    
 .nav li a:hover {
-    background-color: #A4A4A4;
+    background-color: #8df38d;
     flex-grow:initial;
     
 }
@@ -67,14 +67,16 @@ float: left;
     height: 1.5em;
 }
 .navbar{
-    background-color: #04B404;
+    background-color: #8df38d;
     height: 3.5em;
 }
 .collapse{
     z-index: 1 !important;
-    background-color: #04B404;
+    background-color: #8df38d;
 }
 .dropdown-menu{
     z-index: 1 !important;
-    background-color: #04B404 !important;
+    background-color: #8df38d !important;
 }
+
+/*#04B404*/

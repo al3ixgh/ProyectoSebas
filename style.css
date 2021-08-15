@@ -1,0 +1,80 @@
+.contenido{
+    height: 90vh;
+}
+#map {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    padding: 0;
+}
+/* Esto no se que hace */
+strong>#header {
+    margin: auto;
+    width: 400px;
+    font-size: 5;
+    font-family: Helvetica;
+}
+ul,ol {
+    list-style: none;
+}
+.nav>li {
+float: left;
+}
+.nav li a {
+    background-color: #04B404;
+    color: #fff;
+    width: 232px;
+    text-decoration: none;
+    padding: 12px 12px;
+    display: flex;
+    flex-grow:unset;
+}    
+.nav li a:hover {
+    background-color: #A4A4A4;
+    flex-grow:initial;
+    
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover>ul {
+    display:block;
+    z-index: 1;
+    
+}
+.nav li ul li {
+    position: relative; 
+    flex-grow: 78;
+    z-index: 1;
+}
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+    flex-grow: 78;
+}
+#header{
+    position: static;
+}    
+.llegenda{
+    text-align: center;
+    background-color: white;
+    display: flex;
+      
+}
+.llegenda img{
+    height: 1.5em;
+}
+.navbar{
+    background-color: #04B404;
+    height: 3.5em;
+}
+.collapse{
+    z-index: 1 !important;
+    background-color: #04B404;
+}
+.dropdown-menu{
+    z-index: 1 !important;
+    background-color: #04B404 !important;
+}

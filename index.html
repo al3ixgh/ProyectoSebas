@@ -16,7 +16,7 @@
                 <font color="black">Edificis singulars de Reus</font>
             </a></li>
 
-        <li><a href="">Història de la ciutat!</a>
+        <li><a href="">Història de la ciutat</a>
             <ul>
 
                 <li><a href="Origenmedieval.html">Orígen Medieval </a>
@@ -120,7 +120,23 @@
     }).addTo(map);
     
 
-    
+    /*Legend specific*/
+var legend = L.control({ position: "bottomleft" });
+
+legend.onAdd = function(map) {
+  var div = L.DomUtil.create("div", "legend");
+  div.innerHTML += "<h4>EDIFICACIONS</h4>" ;
+  div.innerHTML += '<i style="background: #448D40"></i><span>Eclècticas</span><br>';
+  div.innerHTML += '<i style="background: #448D40"></i><span>Modernistas</span><br>';
+  div.innerHTML += '<i style="background: #E6E696"></i><span>Noucentistas</span><br>';
+  
+  
+
+  return div;
+};
+
+legend.addTo(map);
+
 
 var greenIcon = new L.Icon({
   iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
@@ -249,7 +265,19 @@ var popup = L.popup()
     .setContent("I am a standalone popup.")
     .openOn(mymap);
 
+// Insertando una leyenda en el mapa
+var legend = L.control({position: 'bottomright'});
 
+legend.onAdd = function (map) {
+
+var div = L.DomUtil.create('div', 'info legend');
+
+div.innerHTML +=
+'<img alt="legend" src=" leyenda.png " width="127" height="120" />';
+
+};
+
+legend.addTo(map);
 
 var control = L.Routing.control({
 	waypoints: [

@@ -33,6 +33,7 @@ var redIcon = new L.Icon({
     popupAnchor: [1, -34],
     shadowSize: [41, 41]
 });
+
 var estiloPopup =
       {
       'maxWidth': '300',

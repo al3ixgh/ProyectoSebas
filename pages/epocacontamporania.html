@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Òrigen Medieval</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+        <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+        <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+        <!-- Bootstrap  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <!-- jQuery  -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          crossorigin="anonymous">
+          </script>
+        <title>Època Contemporània</title>
+      </head>
+      <!-- <body background="/img/oro.jpg"> -->
 <body>
-    <h1>Època/h1>
-        <p1></p1> 
-        <p2></p2> 
-            <p3></p3> 
-            <p4></p4> 
-            <p5></p5> 
-                <p6></p6> 
-</body>
+    <div class="container">
+        <div id="header" class="mb-5"></div>
+    <h1 class="text-center">Època Contemporània</h1>
+    <br>
+
+   
+                <p>Reus fou encara al llarg del segle XIX la segona ciutat del Principat en l’aspecte demogràfic. El sector primari continuà essent essencial per a l’economia reusenca. L’agricultura es consolidà i fou la base de dues de les indústries locals: l’oli i l’aiguardent, amb bones collites de blat i ordi, llegums, hortalisses, fruites de tota mena, excepte la fruita seca, vinya i cànem. La guerra del Francès representà un fort sotrac, ja que els napoleònics talaren unes 20 000 oliveres del terme; a més, el 1812 una forta pedregada malmeté la vinya i el 1816 i el 1817 hi hagué una duríssima sequera. El 1805 s’havia introduït el conreu de la patata i cap al 1820 s’explotaven un total de 75 mines d’aigua. El 1849 es mantenien els conreus tradicionals i s’assenyalaven com a principals collites el blat, l’ordi, la vinya, els llegums, els fruits, inclosa l’avellana, l’oliva, les hortalisses i les garrofes. A partir d’aquest moment començà una forta expansió de l’avellaner, tant al secà com al regadiu, en detriment de la vinya, víctima constant de l’oïdi. Abans d’acabar-se el segle l’agricultura rebia un nou i dur sotrac amb la fil·loxera, que feu la seva aparició al terme el 1895 i que abaté tots els ceps del Camp entre el 1896 i el 1902.  </p> 
+                <p> El 1846 actuava com a capital comercial d’una àmplia zona a tres nivells: feia el subministrament ciutadà, catalitzava els productes del seu rerepaís per comercialitzar-los per tot el Principat i part de la resta de l’estat i exportava cap a l’estranger, i uns 3 500 traginers hi compareixien setmanalment. El comerç reusenc incidia especialment en les comarques del Camp, el Priorat, la Terra Alta, el Segrià i l’Urgell.</p> 
+                <p> 
+                  La petita indústria preponderant al final del segle XVIII conegué molt aviat (el 1817 i el 1819) els primers intents de mecanització i tot seguit de concentració. El 1843 es creà la primera gran empresa moguda a vapor, La Industrial Reusenca, que el 1852, amb fortes inversions de capital madrileny, aconduït per Prim, es transformà en La Fabril Cotonera, que arribà a tenir més operaris que L’Espanya Industrial de Barcelona.
+                 </p> 
+                <p>Durant el primer govern absolutista el poble es mantingué fidel al liberalisme i es donà un cert suport a l’alçament de Lacy el 1817. El 10 de març de 1820 Reus s’adherí a la revolta de Riego amb un gran entusiasme, que cresqué amb les gestions fetes al mes de setembre per esdevenir capital de districte. L’eufòria dels primers dies, que semblava compartida pels pobles de la comarca, quedà esqueixada ben aviat amb l’actitud de revolta dels pobles, que convertiren de manera més evident Reus en un bastió del constitucionalisme. Tot i la creació de la milícia, els escamots absolutistes de la comarca arribaren més d’una vegada a les portes de Reus. </p> 
+                <p>L’entrada a Reus de les tropes franceses, el 1823, imposà de nou la involució política i la repressió. De tota manera, en produir-se l’alçament dit dels Malcontents l’ajuntament reusenc i la majoria dels voluntaris reialistes es negaren a seguir-lo. Abans, però, havia esdevingut per segona vegada oficialment, i per primera efectiva, cap administratiu en nomenar-se, a l’agost del 1827, el primer alcalde major lletrat amb jurisdicció sobre Reus i 27 entitats de població més. La mort de Ferran VII i la subsegüent proclamació d’Isabel II foren molt ben rebudes, tot i coincidir amb l’inici de la guerra civil. </p> 
+                
+                <p> Al maig del 1843, Prim i Milans del Bosch, davant la indiferència i fins i tot l’oposició del poble, s’alçaren per a proclamar la majoria d’edat d’Isabel II i provocaren el setge i el bombardeig de la ciutat dirigit per Zurbano. L’acte, imposat i no gaire heroic, representà per a Reus, en triomfar el moviment, el títol de ciutat i per a Prim el de comte de Reus. El pas cap al conservadorisme de la classe dirigent s’anava accentuant. La calma política que seguí la proclamació de la majoria d’edat de la reina impulsà un període d’intensa vida social que va permetre la creació de nombroses entitats de caràcter cultural i polític. </p> 
+                <p> Amb la restauració d’Alfons XII es retornà a l’ensopit ritme caciquista, que comportà a més l’esvaïment d’una bona part de la premsa. El control conservador s’acabà arran de les eleccions municipals del 1897, en què no aconseguiren de col·locar cap dels seus candidats. Començava així el segon període de control municipal dels republicans, secundats ara pels regionalistes, que tenia el seu contrapunt en els alcaldes de reial ordre escollits entre els elements més immobilistes. </p> 
+                <p>La revolta militar del 1936 provocà uns exabruptes de ressons vuitcentistes i a partir del 21 de juliol s’inicià l’atac i la destrucció d’edificis religiosos. Al llarg de la guerra Reus fou bombardejat 56 vegades. La ciutat fou ocupada el 15 de gener de 1939 per l’exèrcit franquista, que inicià tot seguit la repressió, convertint les casernes en camps de concentració i portant a terme diverses execucions. La victòria franquista significà el capgirament de la realitat reusenca política, cultural i social.  </p> 
+                <p>A partir dels darrers anys de la dècada de 1940 s’inicià un canvi. Una data simbòlica pot ser la reobertura el 1948, encara amb limitacions, del Centre de Lectura, que permeté l’inici de la represa d’actes culturals de voluntat catalana i la coexistència de gent d’ideologia diversa. Fins a la dècada dels anys seixanta no es començà una reestructuració seriosa del moviment polític clandestí.El 1969 s’inicià l’activisme de les Comissions Obreres i el 1970 les Plataformes Anticapitalistes. La primera vaga important de la postguerra es feu el 1972 a la Cooperativa Comarcal d’Avicultura. Durant els primers anys de la transició l’activisme democràtic fou constant, amb una viva presència al carrer.  </p> 
+
+                 <img src="img\1200px-Reus._Segle_XV.jpg" alt="">
+            </body>
+           
 </html>

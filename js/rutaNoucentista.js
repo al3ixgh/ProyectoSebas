@@ -43,7 +43,9 @@ L.Routing.control({
         L.latLng(41.16250, 1.11253),
         L.latLng(41.15656, 1.11064),
         L.latLng(41.15429, 1.10908),
-    ]
+    ],
+    language: 'es',
+    
 }).addTo(map);
 
 var estiloPopup =

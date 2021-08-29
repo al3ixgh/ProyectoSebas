@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+  <!-- Bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- jQuery  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+    </script>
+  <title>Època Moderna de Reus</title>
+</head>
+<!-- <body background="/img/oro.jpg"> -->
+
+<body>
+  <div class="container">
+    <div id="header" class="mb-5"></div>
+    <h1 class="text-center">Època Moderna de Reus </h1>
+    <br>
+
+    <p>Malgrat les epidèmies de pesta al llarg dels segles XVI i XVII, la població experimentà un notable creixement. Un
+      pla del 1631 mostra com les cases havien sobrepassat el clos de la muralla i com s’estructuren els ravals i els
+      carrers que en sortien, com el del Vent. Els pagesos continuaven essent la clau de volta de l’economia, però hom
+      observa també una notable activitat en altres sectors econòmics de la vila, amb 10 gremis, i l’inici de la
+      indústria de l’aiguardent, per al qual es demanà permís d’exportació el 1610, i el constant litigi amb Vila-seca
+      pel control del port de Salou, la construcció d’un camí carreter vers l’Urgell el 1541 o la cria de cucs de seda,
+      molt activa el 1561. </p>
+    <p>Els primers anys del segle XVI Reus participà amb homes i diners en la guerra per la recuperació del Rosselló i
+      junt amb altres pobles de la Comuna en la defensa, la vigilància i la fortificació de la costa, i passà una bona
+      part de la resta del segle en la ja esmentada disputa per la senyoria. La preocupació pels corsaris i els
+      bandolers continuà durant tota la primera meitat del segle XVII, neguit que el 1614 va provocar l’ordre d’expulsió
+      de tots els bohemis i els moriscs que s’havien acollit al clos de la vila. </p>
+    <p> Sense haver solucionat el problema dels bandolers, el municipi participà el 1637 en la guerra contra França; cal
+      afegir a aquesta situació la guerra dels Segadors. El 1640 Reus va aixecar la seva host, que el 10 de desembre
+      formava part de la guarnició del coll de Balaguer. Com a represàlia, el 16 de desembre fou declarada enemiga de la
+      pàtria per les Corts, i els béns dels seus habitants, confiscats per a destinar-los a despeses de guerra. Al
+      començament del maig del 1641 el francès La Mothe, que blocava Tarragona, ocupà Reus. Les relacions amb els
+      francesos foren en tot moment molt tenses, i foren denunciats per maltractament als veïns i abusos a les dones,
+      fets que provocaven l’abandonament de la vila; la Generalitat va amonestar reiteradament La Mothe. Finalment, la
+      vila es donà als castellans al gener del 1642, el cap dels quals posava els reusencs com a exemple de fidelitat al
+      rei. El 1645 els síndics reusencs es queixaren de nou dels maltractaments dels francesos als conreus i les
+      persones, els quals provocaven l’abandonament de la vila i de les terres, que restaven ermes. </p>
+    <p> A la mort de Carles II Reus acceptà el seu testament i admeté Felip d’Anjou com a rei, al qual es mantingué
+      fidel fins el 1705. La primera mostra de revolta es produí quan, el 12 de juliol, els consellers no feren cas de
+      la convocatòria dels jurats, que volien ratificar la fidelitat a Felip. A la fi d’agost, a instàncies del
+      riudomenc Joan Nebot, la vila es declarà austriacista. A partir d’aquest moment Reus participà amb entusiasme en
+      la lluita a favor del rei arxiduc Carles III, que fou rebut a la vila amb grans festes el 3 de juliol de 1706. Uns
+      quants mesos després era ocupada de manera transitòria pels borbònics, i es donà per segona vegada a castellans i
+      francesos al setembre del 1709, i part de la població abandonà la vila. El 3 de juny de 1712, en nom del rei
+      arxiduc, la seva muller, Elisabet Cristina, que actuava de governadora, atorgà a Reus el títol de ciutat. En la
+      reunió de la comuna del 1710 Reus es declarà partidària de Carles, posició refermada pels seus delegats en la
+      junta de braços del 1713, encara que pocs dies després es retia sense combat, tot i que la majoria dels seus
+      habitants eren austriacistes, a Felip V. </p>
+    <p> Un cop superats els estralls de la guerra, el notable augment demogràfic comportà una transformació urbana. El
+      1713 la muralla es considerava ja inútil i l’ajuntament la cedia a particulars o bé n'autoritzava l’enderrocament,
+      que era pràcticament enllestit el 1766. Alhora es millorava la imatge ciutadana empedrant diversos carrers (el del
+      Vidre el 1728) i alineant les cases per fer-los rectes (el de l’Abadia el 1734, el de Pedró el 1754); també es van
+      treure les barbacanes per fer-los més lluminosos i els corrals per higiene (1757 i 1758 respectivament), se
+      n'obriren de nous i s’eixamplen els antics. A partir d’aquest any es començaren a construir fonts públiques i al
+      llarg del segle el centre de la ciutat es va anar allunyant del carrer de la Font, sota Sant Pere, cap a la zona
+      de l’actual plaça de Prim, de carrers més amples, on es construïren els grans casals de Bofarull, Gai, Miró o Marc
+    </p>
+    <p> El 1801 la ciutat era dividida en quatre barris, amb els corresponents alcaldes, i tots els carrers i les cases
+      portaven el nom i el número, fet amb rajoles de València. La plaça porxada del Mercadal cridava l’atenció dels
+      viatgers per les seves vastes proporcions i els esgrafiats de les façanes. La importància del comerç reusenc al
+      segle XVIII queda constatada des del començament d’aquest segle. El 1727 hi havia un mínim de quatre cases
+      estrangeres i ja el 1736 hi apareix un cònsol anglès. El comerç i la necessitat d’un port de mar provocaren
+      sovintejades disputes amb el seu municipi pel control de les duanes de Cambrils i amb el de Vila-seca per les de
+      Salou. El comerç reusenc s’inclinà pel port de Salou, vers el qual el 1774 feu construir una carretera tota recta.
+      El comerç es fonamentava bàsicament en la indústria tèxtil, que exportava tant teixits basts com mocadors de seda,
+      i en la fabricació i la comercialització de l’aiguardent. De l’empenta d’aquest comerç prové l’expressió Reus,
+      París i Londres, fent referència a les tres places que establien la cotització de l’aiguardent en el mercat
+      europeu. </p>
+    <p> El 1776 l’ajuntament demanà al rei el títol de ciutat, gràcia a la qual s’oposà radicalment Tarragona i de
+      retruc Reus encapçalà l’oposició de la comarca a contribuir al finançament de les obres d’ampliació del moll
+      tarragoní. En esclatar la guerra contra Anglaterra el 1779 el municipi decidí de noliejar una balandra amb 100
+      tripulants i 14 canons, que es feu a la mar el 1780 amb el nom de Verge de Misericòrdia. La balandra obtingué
+      diverses victòries contra els anglesos i els corsaris algerins. </p>
+    <p>La Revolució Francesa provocà una allau d’immigrats, que s’establiren a les casernes, des d’on es dedicaren a
+      activitats contrarevolucionàries que provocaren algunes topades amb gent del poble. A causa de la Guerra Gran es
+      creà a Reus al juny del 1793 una junta de sometent amb representació de tots els estaments, i al mes de novembre
+      el municipi i diversos particulars s’oferiren a finançar activitats i homes per a la guerra. El sometent local
+      sortí al juliol del 1794 a les ordres de C. de Bofarull, després d’haver-se responsabilitzat de la defensa de
+      Salou. </p>
+      <div class="foto-historia mt-3 mb-3">
+        <img src="/img/fotos html moderna/reus modern.jpg" alt="">
+      </div>
+    <img src="img\1200px-Reus._Segle_XV.jpg" alt="">
+    <!-- bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+      </script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

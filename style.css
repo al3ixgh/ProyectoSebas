@@ -83,4 +83,16 @@ float: left;
     background-color: #8df38d !important;
 }
 
-/*#04B404*/
+.foto-historia{
+    text-align: center;
+}
+
+.foto-historia img{
+    width: 80%;
+    height: 80%;
+}
+
+.fotos-premsa-historica embed{
+    width: 80%;
+    height: 600px;
+}

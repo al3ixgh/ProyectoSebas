@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+  <!-- Bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- jQuery  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+    </script>
+  <title>Expedients de foment</title>
+</head>
+<!-- <body background="/img/oro.jpg"> -->
+
+  <body style="background-color: rgba(174, 184, 113, 0.404);">
+  <div class="container text-center contenido">
+    <div id="header" class="mb-5"></div>
+    <h1>EXPEDIENTS DE FOMENT</h1>
+    <p>Tal i com s’ha esmentat anteriorment, l'Administració deixa registre d’expedient d’obres (sèrie Foment) de qualsevol edificació, reforma o obra menor que es realitzi a la ciutat. Aquest procediment de sol·licitud de la llicència genera  un fons documental únic, centrat en tots documents que conformen els expedients d’obres de finals del segle XIX i principis del XX. Aquesta competència de l’Ajuntament de Reus ens permet consultar la constància de la construcció de molts d’aquest edificis tan representatius: plànols de les façanes, projecte executiu, declaració de responsable tècnic/a d’obres, impost de construccions, pressupost, etc. Dintre de tots aquests documents que conformen l’expedient, cal  fer èmfasi en els plànols de les façanes, que són més atractius visualment, integrant-los en la proposta web, amb la voluntat de captar i potenciar l'interès dels usuaris. </p>
+
+    <p>Un moment clau a l’hora de cercar en la sèrie de Foment el trobem a la dècada de 1940. En aquest període es va reconstruir la ciutat, que va quedar molt afectada pels bombardejos soferts durant la guerra civil espanyola. Aquest context bèl·lic va destruir part del patrimoni arquitectònic i documental. </p>
+    <p>Aquestes circumstàncies van provocar que durant  la postguerra, en concret  dècada dels anys quaranta, es reconstruís la ciutat fet que va generar un augment del volum documental  considerable dels expedients de llicències d’obres (la sèrie Foment).</p>
+    <p>Un exemple a destacar és  la Casa Navàs  que va quedar afectada parcialment durant els bombardejos  i va ser reconstruïda de forma provisional durant la postguerra. Actualment encara es realitzen tasques de restauració de l’edifici (2020, recuperació del capcer, façana principal). </p>
+    <p></p>
+    <p></p> 
+    
+    <table border="1">
+      <tr border>
+        <th>Edificis eclectics</th>
+        <th> Unitat productora </th>
+        <th>Número d'expedient </th>
+        <th>Any </th>
+        <th>Data de prenstació de la solicitud</th>
+        <th>Data d'aprovació</th>
+      </tr>
+
+      <tr border>
+        <td>Escorxador Municipal de Reus </td>
+        <td>Secció de Foment de l'Ajuntament de Reus </td>
+        <td>No consta</td>
+        <td>1889</td>
+        <td>22 de febrer de 1889</td>
+        <td>4 de setembre de 1890</td>
+      </tr>
+
+      <tr>
+        <td>Mas Iglesias </td>
+        <td>En sòl rústic no es requeria tramitar cap llicència</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>Vapor Vell </td>
+        <td>Secció de Foment de l'Ajuntament de Reus </td>
+        <td>193</td>
+        <td>1907</td>
+        <td>22 de maig de 1907</td>
+        <td>24 de maig de 1907</td>
+      </tr>
+
+      <tr>
+        <td>Mas Miarnau </td>
+        <td>En sòl rústic no es requeria tramitar cap llicència</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      </tr>
+      <tr>
+        <td>Antic Banc d’Espanya </td>
+        <td>Secció de Foment de l'Ajuntament de Reus</td>
+        <td>34</td>
+        <td>1902</td>
+        <td>3 de juny de 1902</td>
+        <td>4 de juny de 1902</td>
+      </tr>
+    </table>
+    <table border>
+      <tr>
+        <th>Edificis modernistes</th>
+        <th> Unitat productora </th>
+        <th>Número d'expedient </th>
+        <th>Any </th>
+        <th>Data de prenstació de la solicitud</th>
+        <th>Data d'aprovació</th>
+      </tr>
+      <tr>
+        <td>Casa Navàs </td>
+        <td>Secció de Foment de l'Ajuntament de Reus</td>
+        <td>50</td>
+        <td>1901</td>
+        <td>10 d'octubre de 1901</td>
+        <td>18 d'octubre de 1901</td>
+      </tr>
+      <tr>
+        <td>Institut Pere Mata</td>
+        <td>En sòl rústic no es requeria tramitar cap llicència</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mas Gasull</td>
+        <td>En sòl rústic no es requeria tramitar cap llicència</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Casa Rull</td>
+        <td>Secció de Foment de l'Ajuntament de Reus</td>
+        <td>51</td>
+        <td>1900</td>
+        <td>15 de juny de 1900</td>
+        <td>4 de juliol de 1900</td>
+      </tr>
+      <td>Escola Prat de la Riba</td>
+      <td>Secció de Foment de l'Ajuntament de Reus</td>
+      <td></td>
+      <td>1909</td>
+      <td>9 de novembre de 1909 </td>
+      <td>9 de desembre de 1909</td>
+      </tr>
+      <td>Xalet Serra</td>
+      <td>En sòl rústic no es requeria tramitar cap llicència</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      </tr>
+    </table>
+    <p> </p>
+    <table border>
+      <tr>
+        <th>Edificis modernistes</th>
+        <th> Unitat productora </th>
+        <th>Número d'expedient </th>
+        <th>Any </th>
+        <th>Data de prenstació de la solicitud</th>
+        <th>Data d'aprovació</th>
+      </tr>
+      <tr>
+        <td>Casa Fàbregas </td>
+        <td>Secció de Foment de l'Ajuntament de Reus</td>
+        <td>7</td>
+        <td>1921</td>
+        <td>18 de gener de 1921</td>
+        <td>21 de gener de 1921</td>
+      </tr>
+      <tr>
+        <td>Edifici de la Caixa de Pensions </td>
+        <td>Pendent</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mas Llevat </td>
+        <td>En sòl rústic no es requeria tramitar cap llicència</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Centre de Lectura </td>
+        <td>Secció de Foment de l'Ajuntament de Reus</td>
+        <td>41</td>
+        <td>1920</td>
+        <td>9 de març de 1920</td>
+        <td>19 de març de 1920</td>
+      </tr>
+      </tr>
+      <tr>
+        <td>Magatzems Vilella</td>
+        <td>Secció de Foment de l'Ajuntament de Reus</td>
+        <td>61</td>
+        <td>1919</td>
+        <td>30 de maig de 1919</td>
+        <td>6 de juny de 1919</td>
+        <td>
+      </tr>
+    </table>
+    <p> <i>ANTIC ESCORXADOR MUNICIPAL: Secció de Foment / Any 1889 /  Aprovat el 4 de setembre de 1890.</i></p>
+  
+   
+    <p><i> VAPOR VELL: Secció de Foment / Núm. d'expedient 193 / Any 1907 / Aprovat el 4 de maig de 1907. </i></p>
+
+    <p><i> ANTIC BANC D'ESPANYA: Secció de Foment / Núm. d'expedient 34 / Any 1902 / Aprovat el 4 de juny de 1902. </i></p>
+
+
+    <p><i> CASA NAVÀS: Secció de Foment / Núm. d'expedient 50 / Any 1901 / Aprovat el 18 d'octubre de 1901.  </i></p>
+
+    
+    <p><i> CASA RULL: Secció de Foment / Núm. d'expedient 51 / Any 1900 / Aprovat el 4 de juliol de 1900. </i></p>
+
+    <p><i> ESCOLA PRAT DE LA RIBA: Secció de Foment / Any 1909 / Aprovat el 9 de desembre de 1909.  </i></p>
+
+    <p><i> CASA FÀBREGAS: Secció de Foment / Núm. d'expedient 7 / Any 1921 / Aprovat el 21 de gener de 1921. </i></p>
+ 
+    <p><i> CENTRE DE LECTURA: Secció de Foment / Núm. d'expedient 41 / Any 1920 / Aprovat el 19 de març de 1920. </i></p>
+
+  
+    </p>
+  </div>
+  <!-- bootstrap JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

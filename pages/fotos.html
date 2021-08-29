@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+  <!-- Bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- jQuery  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+    </script>
+  <title>Fotos antigues</title>
+</head>
+<body style="background-color: rgba(174, 184, 113, 0.404);">
+  <div class="container text-center contenido">
+    <div id="header"></div>
+    <h1>FOTOGRAFIES HISTÒRIQUES</h1>
+
+    <p> Les fotografies antigues són una font fonamental per a la recerca històrica i la investigació del patrimoni arquitectònic. Aquesta producció documental  és un vestigi de la vida de les persones en els seus hàbitats i que recull l’evolució de les societats. Tant a Reus com a Catalunya, tenim un ric patrimoni fotogràfic per explotar i divulgar, que ens apropa al nostre passat i a la nostre identitat.  En conseqüència,  he aprofitat aquest recurs per documentar visualment els edificis i la seva història. </p>
+    <p> Concretament la fotografia urbana és la línia en la que m’he centrat. Aquesta representació  de l’escena urbana de l’època ens revela els atributs  característics del seu context històric, una qüestió de gran utilitat per la comprensió del que va ser l’edificació en un moment i lloc determinat. </p>
+    <p>Aquesta herència documental que m’ha permès documentar gran part dels edificis seleccionats per a l’estudi. A través de la consulta en el Centre de la Imatge del Mas Iglesias (CIMIR), he pogut referenciar fotogràficament els immobles.  </p>
+    <p> Aquesta tipologia de document històric ens il·lustra l’empremta que van deixar l'arribada dels nous corrents artístics a la població (eclecticisme, modernisme i noucentisme).  Una prova representativa de de la memòria col·lectiva reusenca que cal analitzar amb detall per entendre les transformacions de la societat i del traçat urbà. </p>
+    <table border="1">
+      <tr border>
+        <th>Edificis eclectics</th>
+        <th>Fons </th>
+        <th>Autor </th>
+        <th>Número de Registre </th>
+      </tr>
+      <tr border>
+        <td>Escorxador Municipal de Reus </td>
+        <td>Postals de Reus</td>
+        <td>Desconegut</td>
+        <td>04934</td>
+      </tr>
+      <tr>
+        <td>Mas Iglesias </td>
+        <td>Postals de Reus</td>
+        <td>Esteve Puig</td>
+        <td>06059</td>
+      </tr>
+      <tr>
+        <td>Vapor Vell </td>
+        <td>Postals de Reus</td>
+        <td>Esteve Puig</td>
+        <td>15513</td>
+      </tr>
+      <tr>
+        <td>Mas Miarnau </td>
+        <td>No consta cap referència de l'edifici
+        <td>
+        <td></td>
+      </tr>
+      </tr>
+      <tr>
+        <td>Antic Banc d’Espanya </td>
+        <td>Postals de Reus</td>
+        <td>Lucien Roisin </td>
+        <td>04886</td>
+      </tr>
+    </table>
+    <p> </p>
+    <table border>
+      <tr>
+        <th>Edificis modernistes</th>
+        <th>Fons </th>
+        <th>Autor </th>
+        <th>Número de registre </th>
+      </tr>
+      <tr>
+        <td>Casa Navàs </td>
+        <td> Postals de Reus </td>
+        <td>Desconegut </td>
+        <td>46520</td>
+      <tr>
+        <td>Institut Pere Mata</td>
+        <td> Postals de Reus </td>
+        <td>Desconegut </td>
+        <td>04944</td>
+      </tr>
+      <tr>
+        <td>Mas Gasull</td>
+        <td>No consta cap referència de l'edifici</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Casa Rull</td>
+        <td> Postals de Reus </td>
+        <td>Desconegut </td>
+        <td>04946</td>
+      </tr>
+      <td>Escola Prat de la Riba</td>
+      <td> Fons Pellicer Punyet </td>
+      <td>Anton Pellicer</td>
+      <td>34701</td>
+      </tr>
+      <td>Xalet Serra</td>
+      <td> Postals de Reus </td>
+      <td>Desconegut </td>
+      <td> 46592</td>
+      </tr>
+    </table>
+    <p> </p>
+    <table border>
+      <tr>
+        <th>Edificis noucentistes</th>
+        <th>Fons </th>
+        <th>Autor </th>
+        <th>Número de Registre </th>
+      </tr>
+      <tr>
+        <td>Casa Fàbregas </td>
+        <td> Postals de Reus </td>
+        <td>Desconegut </td>
+        <td> 46548</td>
+      </tr>
+      <tr>
+        <td>Edifici de la Caixa de Pensions </td>
+        <td>Fons família Pedrola</td>
+        <td>Estanislau Pedrola Rovira «Sandalio»</td>
+        <td>25025</td>
+      </tr>
+      <tr>
+        <td>Mas Llevat </td>
+        <td>Fons família Pedrola</td>
+        <td>Cori Pedrola Gonzàlez</td>
+        <td>25061</td>
+      </tr>
+      <tr>
+        <td>Centre de Lectura </td>
+        <td>Col·lecció família Tricaz</td>
+        <td>Desconegut</td>
+        <td>28889</td>
+      </tr>
+      </tr>
+      <tr>
+        <td>Magatzems Vilella</td>
+        <td>No consta cap referència de l'edifici</td>
+        <td></td>
+        <td>
+      </tr>
+    </table>
+    <p> <i>ANTIC ESCORXADOR MUNICIPAL:Centre de la Imatge Mas Iglesias de Reus / Fons de postals de Reus / Autor
+        desconegut / Núm. de reg. 04934.</i></p>
+   
+    <p><i> MAS IGLESIAS: Centre de la Imatge Mas Iglesias de Reus / Fons de postals de Reus / Esteve Puig / Núm. de reg.
+        06059. </i></p>
+   
+    <p><i> VAPOR VELL: Centre de la Imatge Mas Iglesias de Reus / Fons de postals de Reus / Autor desconegut / Núm. de
+        reg. 15513. </i></p>
+   
+    <p><i> ANTIC BANC D'ESPANYA: Centre de la Imatge Mas Iglesias de Reus / Fons de postals de Reus / Lucien Roisin /
+        Núm. de reg. 04886. </i></p>
+ 
+    <p><i> CASA NAVÀS: Centre de la Imatge Mas Iglesias de Reus / Fons de postals de Reus / Autor desconegut / Núm. de
+        reg. 46520. </i></p>
+    
+    <p><i> INSTITUT PERE MATA: Centre de la Imatge Mas Iglesias de Reus / Fons de postals de Reus / Autor desconegut /
+        Núm. de reg. 04944. </i></p>
+  
+
+    <p><i> CASA RULL: Centre de la Imatge Mas Iglesias de Reus / Fons de postals de Reus / Autor
+        desconegut / Núm. de reg. 04946. </i></p>
+    
+    <p><i> ESCOLA PRAT DE LA RIBA: Centre de la Imatge Mas Iglesias de Reus / Fons Pellicer Punyet / Anton Pellicer/
+        Núm. de reg. 34701. </i></p>
+
+    <p><i> XALET SERRA: Centre de la Imatge Mas Iglesias de Reus / Fons de postals de Reus / Autor desconegut / Núm. de
+        reg. 46592.</i></p>
+    
+    <p><i> CASA FÀBREGAS: Centre de la Imatge Mas Iglesias de Reus / Fons de postals de Reus / Autor desconegut / Núm.
+        de reg. 46548.</i></p>
+   
+
+    <p><i> EDIFICI DE LA CAIXA DE PENSIONS: Centre de la Imatge Mas Iglesias de Reus / Fons família Pedrola / Estanislau
+        Pedrola Rovira «Sandalio» / Núm. de reg. 25025. </i></p>
+
+  
+
+    <p><i> MAS LLEVAT: Centre de la Imatge Mas Iglesias de Reus / Fons família Pedrola / Cori Pedrola Gonzàlez / Núm. de
+        reg. 25061. </i></p>
+
+    <p><i> CENTRE DE LECTURA: Centre de la Imatge Mas Iglesias de Reus / Col·lecció família Tricaz / Autor
+      desconegut / Núm. de reg. 28889. </i></p>
+    
+    </p>
+  </div>
+  <!-- bootstrap JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
